@@ -9,7 +9,7 @@ print(msft.info)
 data = msft.history(start="2018-01-01",  end="2019-01-01")
 data
 import pandas as pd
-data = pd.read_csv('')
+data = pd.read_csv('https://github.com/jcastiblanco99/metodos-num-ricos-lab-1/blob/main/MSFT.csv')
 
 
 
