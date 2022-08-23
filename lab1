@@ -1,0 +1,20 @@
+import yfinance as yf
+
+msft = yf.Ticker("MSFT")
+
+# get stock info
+print(msft.info)
+
+# get historical market data
+data = msft.history(start="2018-01-01",  end="2019-01-01")
+data
+import pandas as pd
+data = pd.read_csv('')
+
+
+
+
+
+
+
+
